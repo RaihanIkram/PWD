@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Raihan Ikram Maulana</title>
+
+    <style>
+      
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #222222;
+            background-color: #f5f7fb;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        nav a {
+            color: #172554;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        .judul-bagian {
+            color: #172554;
+            border-bottom: 2px solid #172554;
+            padding-bottom: 4px;
+        }
+
+        .teks-rapi {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            background-color: #DBEAFE;
+        }
+
+        .tabel-layout {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .kolom-utama {
+            width: 70%;
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        .kolom-samping {
+            width: 30%;
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        .kotak-info {
+            background-color: #f2f2f2;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #dddddd;
+        }
+
+        .kotak-info h3 {
+            margin-top: 0;
+            color: #172554;
+        }
+
+        .tabel-data {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #cccccc;
+        }
+
+        .tabel-data th,
+        .tabel-data td {
+            padding: 8px;
+            border: 1px solid #cccccc;
+        }
+
+        .tabel-data th {
+            background-color: #172554;
+            color: white;
+        }
+
+        .baris-selang {
+            background-color: #f7f7f7;
+        }
+
+        .foto-profil {
+            width: 220px;
+            height: 220px;
+            border: 4px solid #172554;
+            border-radius: 50%;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: #777777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <h1>RAIHAN IKRAM MAULANA</h1>
+        <p><em>Mahasiswa Sistem Informasi | Technology Enthusiast</em></p>
+    </header>
+
+    <hr>
+
+    <!-- ================= MENU NAVIGASI ================= -->
+    <nav>
+        <b>Menu:</b>
+        <a href="#tentang">Tentang</a> |
+        <a href="#data">Data Diri</a> |
+        <a href="#project">Project</a>
+    </nav>
+
+    <hr>
+
+    <!-- ================= ISI UTAMA ================= -->
+    <main>
+
+        <!-- Layout dua kolom menggunakan tabel -->
+        <table class="tabel-layout">
+            <tr>
+
+                <!-- Kolom utama -->
+                <td class="kolom-utama">
+
+                    <!-- ================= TENTANG ================= -->
+                    <section id="tentang">
+                        <h2 class="judul-bagian">Tentang Saya</h2>
+
+                        <p class="teks-rapi">
+                            Halo, saya <b>Raihan Ikram Maulana</b>, mahasiswa
+                            Sistem Informasi di Fakultas Matematika dan
+                            Ilmu Pengetahuan Alam, Universitas Tanjungpura.
+                        </p>
+
+                        <p class="teks-rapi">
+                            Saya memiliki ketertarikan pada bidang
+                            <mark class="highlight">Artificial Intelligence</mark>,
+                            <mark class="highlight">Machine Learning</mark>,
+                            dan <mark class="highlight">Data Science</mark>.
+                            Saya juga tertarik mempelajari bagaimana teknologi
+                            dapat digunakan untuk membuat sistem yang bermanfaat.
+                        </p>
+
+                    
+                    </section>
+
+                    <!-- ================= DATA DIRI ================= -->
+                    <section id="data">
+                        <h2 class="judul-bagian">Data Diri</h2>
+
+                        <table class="tabel-data">
+                            <tr>
+                                <th>Nama</th>
+                                <td>Raihan Ikram Maulana</td>
+                            </tr>
+
+                            <tr class="baris-selang">
+                                <th>NIM</th>
+                                <td>H1101251049</td>
+                            </tr>
+
+                            <tr>
+                                <th>Program Studi</th>
+                                <td>Sistem Informasi</td>
+                            </tr>
+
+                            <tr class="baris-selang">
+                                <th>Fakultas</th>
+                                <td>Matematika dan Ilmu Pengetahuan Alam</td>
+                            </tr>
+
+                            <tr>
+                                <th>Universitas</th>
+                                <td>Universitas Tanjungpura</td>
+                            </tr>
+                        </table>
+                    </section>
+
+                    <!-- ================= PROJECT ================= -->
+                    <section id="project">
+                        <h2 class="judul-bagian">Project</h2>
+
+                        <h3>CentSaver</h3>
+
+                        <p class="teks-rapi">
+                            CentSaver merupakan salah satu project yang saya
+                            buat sebagai dashboard keuangan sederhana yang dilengkapi
+                            model machine learning.
+                        </p>
+
+                        <p>
+                            <b>Coba CentSaver! :</b>
+                            <a href="https://centsaver-cc26-pru458.streamlit.app"
+                               target="_blank">
+                                CentSaver
+                            </a>
+                        </p>
+                    </section>
+
+                    <!-- ================= MINAT ================= -->
+                    <section>
+                        <h2 class="judul-bagian">Minat</h2>
+
+                        <ul>
+                            <li>Artificial Intelligence</li>
+                            <li>Machine Learning</li>
+                            <li>Data Science</li>
+                            <li>Pengembangan Sistem Informasi</li>
+                        </ul>
+
+                        
+                    </section>
+
+                </td>
+
+                <!-- Kolom samping -->
+                <td class="kolom-samping">
+
+                    <!-- ================= FOTO ================= -->
+                    <aside class="kotak-info">
+                        <h3> Profil</h3>
+
+                        <figure>
+                            <img src="https://media.licdn.com/dms/image/v2/D5603AQEVbh2hgmw_JQ/profile-displayphoto-crop_800_800/B56Z6tSCjsJMAQ-/0/1781023649047?e=1790208000&v=beta&t=IsvF56y3SuNlYmILi4zZ5yTPfiwq9-GFaZ0q_iLC7Tw"
+                                 alt="Foto profil "
+                                 class="foto-profil">
+
+                            <figcaption>
+                                Raihan Ikram Maulana
+                            </figcaption>
+                        </figure>
+                    </aside>
+
+                    <br>
+
+                    <!-- ================= INFORMASI KONTAK ================= -->
+                    <aside class="kotak-info">
+                        <h3>Informasi Kontak</h3>
+
+                        <p>
+                            <small>
+                                Email:<br>
+                                h1101251049@student.untan.ac.id
+                            </small>
+                        </p>
+
+                        <p>
+                            <small>
+                                GitHub:<br>
+                                <a href="https://github.com/RaihanIkram"
+                                   target="_blank">
+                                    github.com/RaihanIkram
+                                </a>
+                            </small>
+                        </p>
+
+                        <p>
+                            <small>
+                                LinkedIn:<br>
+                                <a href="https://www.linkedin.com/in/raihan-ikram-maulana/"
+                                   target="_blank">
+                                    linkedin.com/in/raihan-ikram-maulana
+                                </a>
+                            </small>
+                        </p>
+                    </aside>
+
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        
+    </main>
+
+    <hr>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>
+            <small>
+                &copy; 2026 - Raihan Ikram Maulana.
+                
+            </small>
+        </p>
+    </footer>
+
+</body>
+</html>
